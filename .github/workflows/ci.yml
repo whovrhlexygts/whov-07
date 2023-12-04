@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 5 2 ? * MON-FRI"
+    - cron: "15 2 * * 6,0"
 
 jobs:
   autogreen:
